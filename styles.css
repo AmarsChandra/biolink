@@ -1,0 +1,60 @@
+body {
+    background:url(assets/retro-city.gif);
+    color: #ffffff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+
+    img {
+    border-radius: 60%;
+    }
+
+    .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 0%
+    height: auto;
+    max-width: 150px;
+    }
+
+    .logo:hover {
+    max-width: 180px;
+    }
+
+    .website-name {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 255, 255)
+    }
+    
+    .links {
+    
+    text-align: center;
+
+    margin-top: 20px;
+    padding: 20px;
+    border: 3px solid white;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background: rgb(152, 198, 255)
+    }
+
+    a {
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    transition: color 1s; 
+    }
+
+    a:hover {
+    color: #000;
+    background: #cbe3ff;
+    }
